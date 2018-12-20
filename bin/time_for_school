@@ -22,5 +22,15 @@ puts "Steve just learned this important knowledge: '#{steve.knowledge.first}' fr
 jim = User.new 
 jim.first_name = "Jim"
 jim.last_name = "Stewart"
-jim.learn
+
+another_knowledge = avi.teach 
+steve.learn(another_knowledge)
+
+milena = Student.new 
+milena.first_name = "Milena"
+milena.last_name = "Kari"
+lesson_today = avi.teach
+milena.learn(lesson_today)
+
+puts "Milena learned #{milena.knowledge}"
 
