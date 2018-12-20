@@ -32,5 +32,5 @@ milena.last_name = "Kari"
 lesson_today = avi.teach
 milena.learn(lesson_today)
 
-puts "Milena learned #{milena.knowledge}"
+puts "Milena learned #{milena.knowledge.first}"
 
